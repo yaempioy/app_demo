@@ -1,4 +1,4 @@
-ssh root@139.59.127.22 <<EOF
+ssh root@139.59.127.222 <<EOF
  cd /app_demo
  git pull
  npm install --production
