@@ -1,5 +1,5 @@
-ssh root@139.59.127.222 <<EOF
- cd /app_demo
+ssh root@139.59.127.22 <<EOF
+ cd app_demo
  git pull
  npm install --production
  pm2 restart all
